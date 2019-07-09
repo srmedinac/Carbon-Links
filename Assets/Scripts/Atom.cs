@@ -20,6 +20,5 @@ public class Atom : MonoBehaviour {
     void OnTriggerEnter(Collider collider) {
 
         string name = collider.gameObject.name;
-        if(!string.IsNullOrEmpty(name)) Debug.Log(name);
     }
 }

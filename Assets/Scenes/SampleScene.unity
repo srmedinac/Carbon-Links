@@ -181,6 +181,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &478865785 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5041181785409817150, guid: 79585b1c612334117992b190fab2178c,
+    type: 3}
+  m_PrefabInstance: {fileID: 717381212}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &478865786
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478865785}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,7 +300,7 @@ PrefabInstance:
     - target: {fileID: 5041181785409817149, guid: 79585b1c612334117992b190fab2178c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 81.6
+      value: 131.8
       objectReference: {fileID: 0}
     - target: {fileID: 5041181785409817149, guid: 79585b1c612334117992b190fab2178c,
         type: 3}
@@ -353,6 +375,28 @@ MonoBehaviour:
   attractedTo: {fileID: 4373591263290659986}
   strengthOfAttraction: 20
   maximumMagnitude: 20
+--- !u!1 &1240562273 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5041181785409817150, guid: 79585b1c612334117992b190fab2178c,
+    type: 3}
+  m_PrefabInstance: {fileID: 5041181784183992415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1240562274
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240562273}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!4 &4373591263290659986 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4373591263290659986, guid: 55ecb05bb1d7a49b991b23fea431c5bd,

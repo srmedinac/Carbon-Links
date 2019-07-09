@@ -15,7 +15,7 @@ public class StrongForce : MonoBehaviour {
     void Start() {
 
         rigidbody = GetComponent<Rigidbody>();
-        Nucleus nucleus = FindObjectOfType<Nucleus>();
+        Nucleus nucleus = transform.parent.GetComponent<Nucleus>();
         attractors = this.type == ParticleType.PROTON ? nucleus.Neutrons : nucleus.Protons;
     }
 

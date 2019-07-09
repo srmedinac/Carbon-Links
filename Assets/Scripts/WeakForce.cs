@@ -5,6 +5,7 @@ using UnityEngine;
 public class WeakForce : MonoBehaviour
 {
     public ParticleType type;
+    public GameObject Nucleus;
     public static float STRENGTH = 10f, MAX_MAGNITUDE = 2000f;
     public static float LOW_FORCE = 250f, HIGH_FORCE = 400f;
 
@@ -20,7 +21,7 @@ public class WeakForce : MonoBehaviour
         parent = GetComponentInParent<Orbital>();
         rigidbody = GetComponent<Rigidbody>();
 
-        Nucleus nucleus = FindObjectOfType<Nucleus>();
+        Nucleus nucleus = Nucleus.GetComponent<Nucleus>();
         attractors = nucleus.Protons;
 
         initialForce = parent.type == OrbitalType.HIGH ? HIGH_FORCE : LOW_FORCE;

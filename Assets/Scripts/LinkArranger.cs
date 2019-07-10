@@ -27,7 +27,7 @@ public class LinkArranger : MonoBehaviour
         links = new Transform[numberOfLinks];
         linkPositions = new Transform[numberOfLinks];
 
-        for (int i = 0; i < transform.childCount; i++) linkPositions[i] = transform.GetChild(i);
+        for (int i = 0; i < numberOfLinks; i++) linkPositions[i] = transform.GetChild(i);
     }
 
     public void Link(Transform atom) {

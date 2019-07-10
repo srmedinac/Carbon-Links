@@ -1790,7 +1790,7 @@ GameObject:
   - component: {fileID: 5041181785409817149}
   - component: {fileID: 1240562275}
   - component: {fileID: 1240562274}
-  - component: {fileID: 478865786}
+  - component: {fileID: 7569116929457604973}
   m_Layer: 0
   m_Name: CarbonAtom
   m_TagString: Untagged
@@ -1842,7 +1842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   atom: {fileID: 0}
---- !u!54 &478865786
+--- !u!54 &7569116929457604973
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

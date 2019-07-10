@@ -6,7 +6,7 @@ public class WeakForce : MonoBehaviour
 {
     public ParticleType type;
     public GameObject Nucleus;
-    public static float STRENGTH = 10f, MAX_MAGNITUDE = 2000f;
+    public static float STRENGTH = 10f, MAX_MAGNITUDE = 300f;
     public static float LOW_FORCE = 250f, HIGH_FORCE = 400f;
 
     private Transform[] attractors;

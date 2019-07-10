@@ -27,6 +27,8 @@ public class LinkArranger : MonoBehaviour
         links = new Transform[numberOfLinks];
         linkPositions = new Transform[numberOfLinks];
 
+        Debug.Log($"Link type is {GameManager.linkType}");
+
         for (int i = 0; i < numberOfLinks; i++) linkPositions[i] = transform.GetChild(i);
     }
 

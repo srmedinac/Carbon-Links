@@ -13,6 +13,11 @@ public class AtomSpawner : MonoBehaviour
         atomSpawners = GetComponentsInChildren<SpawnerPoint>();
     }
 
+    void Update(){
+
+        if (Input.GetKeyDown(KeyCode.P)) Spawn();
+    }
+
     public void Spawn() {
 
         System.Random random = new System.Random();

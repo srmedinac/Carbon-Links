@@ -55,7 +55,6 @@ public class Atom : MonoBehaviour {
         GameObject col = collider.gameObject;
         if (col.CompareTag("Wall")){
 
-            Debug.Log("Collisioned with wall");
             Transform wall = col.transform;
             float x = col.name.Equals("Right") || col.name.Equals("Left") ? -Movement.x : Movement.x;
             float y = col.name.Equals("Top") || col.name.Equals("Bottom") ? -Movement.y : Movement.y;

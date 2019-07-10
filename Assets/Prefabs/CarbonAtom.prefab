@@ -29,7 +29,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 240771517}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &230202063
 MonoBehaviour:
@@ -73,9 +73,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1449101723}
-  - {fileID: 230202062}
   - {fileID: 1983162019}
   - {fileID: 1743591895}
+  - {fileID: 230202062}
   m_Father: {fileID: 5041181785409817149}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -164,7 +164,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 240771517}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1743591896
 MonoBehaviour:
@@ -208,7 +208,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 240771517}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1983162020
 MonoBehaviour:
@@ -1790,6 +1790,7 @@ GameObject:
   - component: {fileID: 5041181785409817149}
   - component: {fileID: 1240562275}
   - component: {fileID: 1240562274}
+  - component: {fileID: 478865786}
   m_Layer: 0
   m_Name: CarbonAtom
   m_TagString: Untagged
@@ -1840,6 +1841,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f4776e4f88fd4a38b7584b303949138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  atom: {fileID: 0}
+--- !u!54 &478865786
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5041181785409817150}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5041181785478135462
 GameObject:
   m_ObjectHideFlags: 0
